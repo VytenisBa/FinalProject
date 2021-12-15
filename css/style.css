@@ -417,6 +417,16 @@ html, body {
 }
 .practice__container {
 }
+@media (max-width: 992px) {
+    .practice__container {
+    padding: 5px;
+}
+}
+@media (max-width: 479px) {
+    .practice__container{
+    padding: 5px;
+}
+}
 .practice__header {
     margin: 0px 0px 45px 0px;
 }
