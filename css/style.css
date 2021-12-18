@@ -143,6 +143,8 @@ html, body {
 }
 .clients__page {
 }
+.page__footer {
+}
 /*---------------------HEADER-BLOCK---------------------*/
 .header-block {
     text-align: center;
@@ -632,7 +634,71 @@ html, body {
 
 
 
-/*-----FOOTER----*/
+/*---------------------FOOTER-PAGE---------------------------*/
 .footer {
     align-items: center;
+}
+.page__footer {
+    
+}
+.footer__container {
+    background-color: #17213C;
+}
+
+.footer__column {
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -15px;
+}
+.footer__menu {
+    
+}
+.menu-footer {
+    flex: 1 1 16.667%;
+    
+}
+.menu-footer__list {
+    
+    padding: 15px;
+}
+.menu-footer__item {
+    color: white;
+}
+.menu-footer__item:hover{
+    text-decoration: underline;
+}
+
+
+
+.footer__bottom {
+}
+.bottom__container {
+
+}
+.footer__column{
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+}
+.footer__copyright {
+    padding: 0px 0px 15px 0px;
+    flex: 1 1 16.667%;
+}
+.footer__social {
+    flex: 1 1 auto;
+    display: flex  ;
+    justify-content: flex-end;
+}
+.social-footer {
+}
+.sosial-footer__list {
+}
+.social__list {
+    
+}
+.social__link{
+}
+.social__link:not(:last-child){
+    padding: 0px 20px 0px 0px;
 }
