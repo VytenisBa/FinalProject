@@ -659,11 +659,25 @@ html, body {
     
 }
 .menu-footer__list {
-    
     padding: 15px;
 }
-.menu-footer__item {
+.menu-footer__list a {
     color: white;
+}
+.menu-footer__title {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    padding: 0px 0px 20px 0px;
+}
+.menu-footer__item {
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    padding: 0px 0px 10px 0px;
+}
+.menu-footer__title:hover{
+    text-decoration: underline;
 }
 .menu-footer__item:hover{
     text-decoration: underline;
@@ -682,19 +696,7 @@ html, body {
     flex-wrap: wrap;
     flex: 1 1 16.667%;
 }
-@media (max-width: 992px) {
-    .footer__column {
-    flex: 1 1 50%;
-    padding: 15px;
-}
-}
 
-@media (max-width: 670px) {
-    .footer__column {
-    flex: 0 1 100%; 
-    padding: 15px;
-}
-}
 
 .footer__copyright {
     padding: 0px 0px 15px 0px;
